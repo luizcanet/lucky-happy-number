@@ -1,0 +1,24 @@
+{
+  "name": "lucky-happy-number",
+  "version": "1.0.0",
+  "description": "Lucky & Happy Number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcanet/lucky-happy-number.git"
+  },
+  "keywords": [
+    "lucky",
+    "happy",
+    "number"
+  ],
+  "author": "Luiz Henrique Canet Filho <me@luizca.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizcanet/lucky-happy-number/issues"
+  },
+  "homepage": "https://github.com/luizcanet/lucky-happy-number#readme"
+}
