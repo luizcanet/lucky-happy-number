@@ -4,6 +4,7 @@
   "description": "Lucky & Happy Number",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
@@ -23,6 +24,10 @@
   "homepage": "https://github.com/luizcanet/lucky-happy-number#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
     "mocha": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
