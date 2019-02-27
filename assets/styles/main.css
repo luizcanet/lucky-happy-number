@@ -1,0 +1,86 @@
+body {
+  background: url('../images/background.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+.screen-header__title {
+  color: white;
+  text-shadow: yellow 0 0 30px;
+}
+
+.lucky-happy__form {
+  display: flex;
+  flex-flow: column;
+}
+
+.lucky-happy__number-field {
+  border: none;
+  border-radius: 0.25em 0.25em 0 0;
+  box-sizing: border-box;
+  font-size: 1.125em;
+  height: 3em;
+  padding: 1.125em;
+  width: 100%;
+}
+
+.lucky-happy__get-button {
+  background-color: yellow;
+  border: none;
+  border-radius: 0 0 0.25em 0.25em;
+  box-sizing: border-box;
+  font-size: 1.125em;
+  font-weight: bold;
+  height: 3em;
+  line-height: 1em;
+  padding: 1.125em;
+  width: 100%;
+}
+
+.lucky-happy-result-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.lucky-happy-result {
+  background: #fffc;
+  border-radius: 0.125em;
+  font-size: 2em;
+  font-family: serif;
+  padding: 2em;
+  opacity: 1;
+  text-align: center;
+  transform-origin: center center;
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+.lucky-happy-result-wrapper--loading .lucky-happy-result {
+  opacity: 0;
+  transform: scale(0, 0);
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+@media (min-width: 601px) {
+  .screen-header,
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .lucky-happy__form {
+    flex-flow: row;
+  }
+
+  .lucky-happy__number-field {
+    border-radius: 0.25em 0 0 0.25em ;
+  }
+
+  .lucky-happy__get-button {
+    border-radius: 0 0.25em 0.25em 0;
+  }
+}
